@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.birthdaycard.MainActivity"
+    android:background="@drawable/cake"
+    android:layout_centerHorizontal="true">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+
+    <ImageView
+        android:id="@+id/ImageView1"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginEnd="31dp"
+        android:layout_marginTop="39dp"
+        android:src="@drawable/galga" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to Gal Gadot"
+        android:fontFamily="cursive"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/ImageView1"
+        android:layout_marginLeft="225dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ImageView1"
+        android:layout_below="@+id/textView1"
+        android:text="May the God be with you"
+        android:fontFamily="cursive"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:layout_marginLeft="215dp"/>
+
+
+</RelativeLayout>
